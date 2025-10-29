@@ -1,0 +1,19 @@
+# Crea un archivo HTML desde Colab (ejemplo)
+html_code = """
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi página desde Colab</title>
+</head>
+<body>
+  <h1>Hola desde Google Colab 🚀</h1>
+  <p>Esta es mi primera web conectada a GitHub y Netlify.</p>
+</body>
+</html>
+"""
+
+# Guarda el archivo
+with open("index.html", "w") as f:
+    f.write(html_code)
+
+print("Archivo index.html creado correctamente")
